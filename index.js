@@ -18,4 +18,8 @@ function checkGuess() {
         gameResult.textContent = "Congratulations! You got it right.";
         gameResult.style.backgroundColor = "Green";
     }
+    else {
+        gameResult.textContent = "Please provide a valid Input";
+        gameResult.style.backgroundColor = "Red";
+    }
 }
